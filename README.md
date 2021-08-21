@@ -6,7 +6,9 @@ Grant yourself the ability to throw the proverbial chair at the system! It feels
 The Public Enemy was an online 3D environment (2016-2020) where the participant could throw a chair at either or both of the US political parties. Depending on which party was hit, a flood of contextually appropriate Twitter hashtags that were continuously mined from the network would rain from above. If a hashtag struck one of the party icons, the application would use natural language processing techniques to recombinantly generate and re-post a new tweet using the offending tweet. Tweets were a mashup of text from Avatar Emergency (Gregory Ulmer), The World of Wrestling (Roland Barthes), Walden: Economy (Henry David Thoreau), and a transcript from Extreme Championship Wrestling: One Night Stand 2006.
 
 https://twitter.com/dapublic_nme
+
 https://youtu.be/0jQhCzl22Cs
+
 
 GENERAL:
 
