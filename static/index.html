@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Public Enemy">
+    <meta name="author" content="Jack Stenner">
+    <meta property="fb:app_id" content="1642944922691474" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="The Public Enemy" />
+    <meta property="og:description" content="The virtue of all-in wrestling is that it is the spectacle of excess. -- Roland Barthes -- Here's something you can do while you watch the conventions!" />
+    <meta property="og:url" content="http://thepublicenemy.us" />
+    <meta property="og:image" content="http://thepublicenemy.us/img/publicenemy.jpg" />
+
+    <!-- ****** faviconit.com favicons ****** -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="img/favicon.ico">
+    <link rel="icon" type="image/png" sizes="196x196" href="img/favicon-192.png">
+    <link rel="icon" type="image/png" sizes="160x160" href="img/favicon-160.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="img/favicon-64.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
+    <link rel="apple-touch-icon" href="img/favicon-57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon-72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon-144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon-60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon-120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon-76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon-152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon-180.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="img/favicon-144.png">
+    <meta name="msapplication-config" content="img/browserconfig.xml">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <!-- ****** faviconit.com favicons ****** -->
+
+    <title>The Public Enemy</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- Base CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700|Wallpoet" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+<!--    <script>window.$ = window.jQuery = require('jquery');</script>-->
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+    <!-- The Public Enemy Scripts -->
+    <script src="js/heartcode-canvasloader-min.js"></script>
+    <script src="js/ammo.js"></script>
+    <script src="js/three/three.min.js"></script>
+    <script src="js/three/OrbitControls.js"></script>
+    <script src="js/three/Detector.js"></script>
+    <script src="js/three/stats.min.js"></script>
+    <script src="js/dat.gui.min.js"></script>
+    <script src="js/Mirror.js"></script>
+    <script src="js/shaders/WaterShader.js"></script>
+    <script src="js/shaders/FresnelShader.js"></script>
+    <script src="js/three-text2d.min.js"></script>
+    <script src="js/TwitterBubble.js"></script>
+    <script src="js/TwitterDrop.js"></script>
+    <script src="js/Tween.js"></script>
+    <script src="js/bowser.js"></script>
+    <script src="js/index.js"></script>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-80812250-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId      : '1642944922691474',
+                xfbml      : true,
+                version    : 'v2.7'
+            });
+        };
+
+        (function(d, s, id){
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {return;}
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<div id="preload-01"></div>
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+            <a id="mainHome" href="http://thepublicenemy.us" target="_top" class="fa fa-home fa-2x" data-toggle="tooltip" data-placement="bottom" title="Home"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <div id="feedback">
+                <p></p>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<!-- Landing Section -->
+<section id="land" class="landing-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                <div class="picframe">
+                <div class="enter">
+                    <a class="btn btn-start enterBtn page-scroll" href="#rumble"><img id="chairthrow" src="img/chairthrow.gif"></a>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+    </div>
+</section>
+
+<!-- Rumble Section -->
+<section id="rumble" class="rumble-section">
+    <div id="frame">
+        <img src="img/bigframe.png" id=frameImg>
+        <div id="corners">
+            <img src="img/Jamie.gif" id=img1 data-toggle="tooltip" data-placement="right" title="Jamie Dimon, JP Morgan">
+            <img src="img/Lloyd.gif" id=img2 data-toggle="tooltip" data-placement="left" title="Lloyd Blankfein, Goldman Sachs">
+            <p><img id="letsrumble" class="nfo" src="img/singlepixel.gif" style="border: 0px" data-toggle="tooltip" data-placement="top" title="MORE"></p>
+            <div class="loading-container">
+                <div id="webglcontainer" class="webgl-container"></div>
+            </div>
+        </div>
+        <div class="nfoPanel">
+            <div class="closer"><a id="closer" href="javascript:;" data-toggle="tooltip" data-placement="auto" title="Close Panel"><i class="fa fa-times-circle" aria-hidden="true"></i></a></div>
+            <div class="chooser">
+                <h1>You have a "choice!"</h1>
+                <img class="rncBtn" src="img/ChooseRNC.png">
+                <img class="dncBtn" src="img/ChooseDNC.png">
+                <p>If you have a <b>BEEFY</b> computer, you can hurl at them <a class="bothBtn" href="javascript:;"><b>BOTH!</b></a><br/>If you're really pissed, try <a class="dumpBtn" href="javascript:;"><b>DUMP</b></a> mode!</p>
+                <p><a id="soundBtn" class="fa fa-volume-off fa-4x" href="javascript:;" data-toggle="tooltip" data-placement="bottom" title="Sound"></a><br/>
+                    Toggle Sound OFF/ON
+                </p>
+            </div>
+            <div class="instructions">
+                <h1>Instructions</h1>
+                <p>Click the mouse to hurl a chair! A collection of timely Twitter hashtags will rain down on the
+                    DNC/RNC. When a tag collides with either party, a tweet, using that tag as source, will be generatively composed and posted to
+                    Twitter.</p>
+                <p>Sentences generated by The Public Enemy are displayed in the feedback panel. You can zoom in and out with a scroll wheel and rotate with click/drag. IF you have a <b>BEEFY</b> computer, pressing "1" will change to DUMP mode. The number of chairs dumped is proportional to the popularity (see number displayed) of the tag selected by clicking a bubble. This can be memory intensive -- you have been warned :-)</p>
+            </div>
+            <div class="information">
+                <h1>Information</h1>
+                <p>by <a href="http://www.jackstenner.com">Jack Stenner</a></p>
+                <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a></p>
+                <p>Thank you to the developers of various software that was used: <a href="https://nodejs.org" target="_blank">Node.js</a>, <a href="http://bulletphysics.org" target="_blank">Bullet Physics</a>, <a href="https://github.com/kripken/ammo.js/" target="_blank">Ammo.js</a>, <a href="http://threejs.org" target="_blank">Three.js</a>, <a href="https://dev.twitter.com" target="_blank">Twitter API</a>, Daniel Howe's <a href="http://www.rednoise.org/rita/" target="_blank">RiTa</a>...and more.</p>
+                <p>Thank you to PsychoKenjiro for footage of Hardcore Heaven, 1994. Thanks to <a href="http://thomasrstorey.net/">Thomas Storey</a> for your inital help. Thank you Wikipedia for the image of Walden Pond. I'm sure there are other thanks due...</p>
+            </div>
+            <div class="twitter">
+                <a class="twitter-timeline" data-width="360" data-height="320" data-theme="light"
+                   href="https://twitter.com/dapublic_nme">Tweets by dapublic_nme</a>
+                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <div class="texts">
+                <h1>Texts</h1>
+                <p>The Public Enemy collects tweets and generatively combines them with a selection of texts listed below:</p>
+                <ul class="fa-ul">
+                    <li><i class="fa-li fa fa-book" aria-hidden="true"></i>Avatar Emergency, ch. 10, Frog, by <a href="http://users.clas.ufl.edu/glue/" target="_blank">Gregory Ulmer</a></li>
+                    <li><i class="fa-li fa fa-book" aria-hidden="true"></i>Mythologies, ch. 1, The World of Wrestling, by Roland Barthes</li>
+                    <li><i class="fa-li fa fa-book" aria-hidden="true"></i>Walden, ch. 1, Economy, by Henry David Thoreau</li>
+                    <li><i class="fa-li fa fa-book" aria-hidden="true"></i>ECW Smackdown, One Night Stand, 2006, transcript from Extreme Championship Wrestling</li>
+                </ul>
+            </div>
+            <div class="nfoControls">
+                <a class="homeBtn" href="http://thepublicenemy.us" target="_top" data-toggle="tooltip" data-placement="top" title="Home"><i class="fa fa-home" aria-hidden="false"></i></a>
+                <a class="chooseBtn" href="javascript:;" data-toggle="tooltip" data-placement="top" title="Chooser"><i class="fa fa-check-circle" aria-hidden="false"></i></a>
+                <a class="instBtn" href="javascript:;" data-toggle="tooltip" data-placement="top" title="Instructions"><i class="fa fa-question-circle" aria-hidden="false"></i></a>
+                <a class="infoBtn" href="javascript:;" data-toggle="tooltip" data-placement="top" title="Information"><i class="fa fa-info-circle" aria-hidden="false"></i></a>
+                <a class="txtBtn" href="javascript:;" data-toggle="tooltip" data-placement="top" title="Texts"><i class="fa fa-file-text" aria-hidden="false"></i></a>
+                <a class="twitBtn" href="javascript:;" data-toggle="tooltip" data-placement="top" title="Twitter Feed"><i class="fa fa-twitter-square" aria-hidden="false"></i></a>
+            </div>
+        </div>
+        <div class="feedbackPanel">
+            <div id="feedbackTxt">
+                <div id="feedbackTag"></div>
+                <div id="feedbackSentence"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Twitter Section -->
+<section id="twitter_id" class="twitter-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6">
+                <div class="twitter">
+                    <a class="twitter-timeline" data-width="520" data-height="520" data-theme="light"
+                       href="https://twitter.com/dapublic_nme">Tweets by dapublic_nme</a>
+                    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+    </div>
+</section>
+
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+{
+  "apps" : [{
+    "name"        : "test",
+    "script"      : "test.js",
+    "watch"       : "./utils/reload.txt"
+  }]
+}

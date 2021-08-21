@@ -1,0 +1,38 @@
+{
+  "name": "bowser",
+  "description": "a browser detector",
+  "keywords": [
+    "ender",
+    "browser",
+    "sniff",
+    "detection"
+  ],
+  "version": "1.4.1",
+  "homepage": "https://github.com/ded/bowser",
+  "scripts": [
+    "src/bowser.js"
+  ],
+  "authors": [
+    "Dustin Diaz <dustin@dustindiaz.com> (http://dustindiaz.com)"
+  ],
+  "moduleType": [],
+  "license": "MIT",
+  "main": "src/bowser.js",
+  "ignore": [
+    "node_modules",
+    "test",
+    "make",
+    "**/.*",
+    "Makefile"
+  ],
+  "_release": "1.4.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.4.1",
+    "commit": "fc5f77c12f7d574ad8ed4cd93e11e56db8e0185f"
+  },
+  "_source": "https://github.com/ded/bowser.git",
+  "_target": "^1.4.1",
+  "_originalSource": "bowser",
+  "_direct": true
+}

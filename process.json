@@ -1,0 +1,7 @@
+{
+  "apps" : [{
+    "name"        : "pe-server",
+    "script"      : "pe-server.js",
+    "watch"       : "./utils/reload.txt"
+  }]
+}
